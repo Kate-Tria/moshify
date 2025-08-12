@@ -472,6 +472,7 @@ a {
 /* testimonial */
 .testimonial {
   padding: 3rem;
+  overflow: visible;
 }
 
 .testimonial__image {
@@ -488,7 +489,7 @@ a {
   right: -32px;
 }
 
- {
+@media screen and (min-width: 768px) {
   .testimonial .quote,
   .testimonial .quote__author {
     font-size: 2.4rem;
@@ -498,6 +499,7 @@ a {
     margin-left: 6rem;
   }
 }
+
 /* callouts */
 .callout {
   padding: 4rem;
