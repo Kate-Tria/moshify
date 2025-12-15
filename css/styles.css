@@ -493,13 +493,13 @@ a {
 
 @media screen and (min-width: 768px) {
   .grid--1x2 {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (min-width: 1024px) {
   .grid--1x3 {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -771,4 +771,31 @@ nav.collapsible--expanded .nav__toggler {
 .block-plans .card {
   max-width: 500px;
   margin: 0 auto;
+}
+
+/* Freature Block*/
+.feature {
+  margin-top: 4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .feature:nth-of-type(even) .media__features {
+    order: 2;
+  }
+}
+
+.media__features {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.media__image-icon {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.media-grid {
+  display: grip;
+  grid-template-rows: 5;
+  row-gap: 2.5rem;
 }
