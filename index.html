@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <!-- TODO: COMPLETAR TODAS LAS ANIMACION -->
     <header>
       <nav class="nav collapsible">
         <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
@@ -102,7 +101,7 @@
               <span class="plan__price">$14</span>
               <span class="plan__billing-cycle">/month</span>
               <span class="badge badge--secondary badge--small">10% OFF</span>
-              <spam class="plan__description">Easy start on the cloud</spam>
+              <span class="plan__description">Easy start on the cloud</span>
             </header>
             <div class="card__body">
               <ul class="list list--tick">
@@ -122,7 +121,7 @@
               <span class="plan__price">$14</span>
               <span class="plan__billing-cycle">/month</span>
               <span class="badge badge--primary badge--small">10% OFF</span>
-              <spam class="plan__description">Easy start on the cloud</spam>
+              <span class="plan__description">Easy start on the cloud</span>
             </header>
             <div class="card__body">
               <ul class="list list--tick">
@@ -142,7 +141,7 @@
               <span class="plan__price">$14</span>
               <span class="plan__billing-cycle">/month</span>
               <span class="badge badge--secondary badge--small">10% OFF</span>
-              <spam class="plan__description">Easy start on the cloud</spam>
+              <span class="plan__description">Easy start on the cloud</span>
             </header>
             <div class="card__body">
               <ul class="list list--tick">
@@ -157,8 +156,6 @@
         </div>
       </div>
     </section>
-    <!-- TODO: REFACTORIZAR ESTE COMPOMENTE LOS ELEMENTOS SEMATICOS-->
-    <!-- TODO: OPTIMIZAR TODA LAS IMAGENES (WEBP PNG, JPG)-->
     <section class="block container media-grid">
       <div class="block__header">
         <h2>Host On The Cloud to Keep Growing</h2>
@@ -433,58 +430,66 @@
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">PRODUCTS</h2>
             <svg class="icon icon--dark collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
-            <li><a href="">Website Hosting</a></li>
-            <li><a href="">Free Automated Wordpress</a></li>
-            <li><a href="">Migrations</a></li>
+            <ul class="list">
+              <li><a href="">Website Hosting</a></li>
+              <li><a href="">Free Automated Wordpress</a></li>
+              <li><a href="">Migrations</a></li>
+            </ul>
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">COMPANY</h2>
             <svg class="icon icon--dark collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
-            <li><a href="">About</a></li>
-            <li><a href="">Affiliates</a></li>
-            <li><a href="">Blog</a></li>
+            <ul class="list">
+              <li><a href="">About</a></li>
+              <li><a href="">Affiliates</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">SUPPORT</h2>
             <svg class="icon icon--dark collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
-            <li><a href="">Contact</a></li>
-            <li><a href="">Knowledge</a></li>
-            <li><a href="">Base</a></li>
-            <li><a href="">FAQ</a></li>
+            <ul class="list">
+              <li><a href="">Contact</a></li>
+              <li><a href="">Knowledge</a></li>
+              <li><a href="">Base</a></li>
+              <li><a href="">FAQ</a></li>
+            </ul>
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">DOMAINS</h2>
             <svg class="icon icon--dark collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
-            <li><a href="">Domain</a></li>
-            <li><a href="">Checker</a></li>
-            <li><a href="">Domian</a></li>
-            <li><a href="">Transfer</a></li>
-            <li><a href="">Free</a></li>
+            <ul class="list">
+              <li><a href="">Domain</a></li>
+              <li><a href="">Checker</a></li>
+              <li><a href="">Domian</a></li>
+              <li><a href="">Transfer</a></li>
+              <li><a href="">Free</a></li>
+            </ul>
           </div>
         </section>
         <section class="footer__brand">
