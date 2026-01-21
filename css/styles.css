@@ -385,7 +385,7 @@ a {
 }
 
 .plan--popular {
-  transform: scale (1.1);
+  transform: scale(1.1);
 }
 
 .plan--popular .card__header {
@@ -583,7 +583,7 @@ a {
 
   .callout .btn {
     justify-self: start;
-    margin: 0 2 rem;
+    margin: 0 2rem;
   }
 }
 
@@ -732,7 +732,7 @@ nav.collapsible--expanded .nav__toggler {
 
 .hero__tagline {
   font-size: 2rem;
-  color: 3b9c3df;
+  color: #b9c3df;
   letter-spacing: 1px;
   margin: 2rem 0 5rem;
 }
@@ -810,9 +810,9 @@ nav.collapsible--expanded .nav__toggler {
 }
 
 .media-grid {
-  display: grip;
-  grid-template-rows: 5;
-  row-gap: 2.5rem;
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  row-gap: 1.5rem;
 }
 
 /*Showcase Block*/
